@@ -25,7 +25,7 @@ struct Snake snake;
 int foodX, foodY;
 int dirX = 0, dirY = 0;
 
-// ------------------ FOOD SPAWNING ------------------
+// ----------------- FOOD SPAWNING -----------------
 void spawn_food() {
     int valid = 0;
     while (!valid) {
